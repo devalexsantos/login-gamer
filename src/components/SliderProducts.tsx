@@ -22,6 +22,9 @@ export default function SliderProducts({ products }: SliderProductsProps) {
       },
     },
     initial: 0,
+    slides: {
+      perView: 3,
+    },
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel)
     },

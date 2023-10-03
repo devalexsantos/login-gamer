@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Header() {
   return (
-    <header className="w-full h-[100vh] p-3 bg-[url('/assets/bg-header.png')] bg-center bg-cover">
+    <header className="w-full p-3 bg-[url('/assets/bg-header.png')] bg-center bg-cover">
       <div className="m-auto w-full max-w-6xl p-3 flex flex-col">
         <div className="flex justify-between">
           <div>

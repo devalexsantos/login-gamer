@@ -35,12 +35,15 @@ export interface Product {
   upon_request: string
   ncm: string
   payment_option: string
-  url: string
+  url: {
+    https: string
+  }
   is_kit: string
   additional_button: string
   virtual_product: string
   promotional_price: string
   deactivation_status_history: string
+  payment_option_details: { value: string }[]
 }
 
 export interface ProductsEntity {
