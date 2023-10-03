@@ -7,7 +7,7 @@ export default async function ListOffers() {
   ).then((res) => res.json())
 
   return (
-    <div className="flex justify-center mt-[-140px] pb-28">
+    <div className="flex justify-center mt-[-140px]">
       <SliderProducts products={products} />
     </div>
   )
