@@ -17,6 +17,9 @@ export default function SliderProducts({ products }: SliderProductsProps) {
       '(max-width: 1375px)': {
         slides: { perView: 4, spacing: 5 },
       },
+      '(max-width: 986px)': {
+        slides: { perView: 3, spacing: 5 },
+      },
       '(max-width: 685px)': {
         slides: { perView: 1, spacing: 0 },
       },

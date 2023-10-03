@@ -1,4 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import IconShoppingCart from './icons/IconShoppingCart'
+import MobileNav from './MobileNav'
+import IconMenu from './icons/IconMenu'
 
 export default function Header() {
   return (
@@ -14,13 +18,27 @@ export default function Header() {
             />
           </div>
           <nav className="hidden sm:block">
-            <ul className="flex gap-3">
-              <li>PRODUTOS</li>
-              <li>VÍDEOS</li>
-              <li>CONTATO</li>
-              <li>LOJA</li>
+            <ul className="flex gap-3 items-center">
+              <Link href="#ofertas">
+                <li>OFERTAS</li>
+              </Link>
+              <Link href="#categorias">
+                <li>CATEGORIAS</li>
+              </Link>
+              <Link href="#videos">
+                <li>VÍDEOS</li>
+              </Link>
+              <Link href="https://login.com.br" target="_blank">
+                <li className="flex gap-1 items-center bg-[#1123B1] px-4 py-2 rounded">
+                  <IconShoppingCart width={20} height={20} />
+                  LOJA
+                </li>
+              </Link>
             </ul>
           </nav>
+          <div className="sm:hidden">
+            <MobileNav />
+          </div>
         </div>
         <div className="flex flex-col gap-6  sm:flex-row justify-center items-center mt-20">
           <Image

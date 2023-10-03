@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Categories() {
   return (
-    <div className="flex flex-col gap-3 pb-20">
+    <div id="categorias" className="flex flex-col gap-3 pb-20">
       <h2 className="text-4xl font-bold pt-16 text-center">SUPER CATEGORIAS</h2>
       <div className="mt-8 flex gap-4 flex-wrap justify-center">
         {categories.map((categorie, index) => (
