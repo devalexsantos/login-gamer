@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import IconShoppingCart from './icons/IconShoppingCart'
 import MobileNav from './MobileNav'
-import IconMenu from './icons/IconMenu'
 
 export default function Header() {
   return (
