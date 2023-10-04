@@ -51,7 +51,7 @@ export default function Header() {
               JOGUE QUALQUER COISA
             </h1>
             <p className="text-4xl text-[#2FD8FF] mt-4">
-              BEM VINDO A LOGIN GAMER
+              BEM VINDO À LOGIN GAMER
             </p>
           </div>
         </div>
