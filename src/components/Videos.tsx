@@ -1,7 +1,7 @@
 import { videos } from '@/mock/videos'
-import Image from 'next/image'
 import Link from 'next/link'
 import IconYoutube from './icons/IconYoutube'
+import VideoModal from './VideoModal'
 
 export default function Videos() {
   return (
@@ -12,18 +12,9 @@ export default function Videos() {
       <h2 className="text-4xl font-bold pt-16 text-center">VÍDEOS</h2>
       <div className="mt-8 flex flex-wrap gap-3 justify-center max-w-6xl">
         {videos.map((video, index) => (
-          <Link href={video.url} key={index} target="_blank">
-            <div className="flex flex-col gap-2 rounded bg-white bg-cover p-3 bg-opacity-5">
-              <Image
-                src={video.imageUrl}
-                width={349}
-                height={250}
-                alt={video.title}
-                className="rounded"
-              />
-              <span>{video.title}</span>
-            </div>
-          </Link>
+          <div key={index}>
+            <VideoModal video={video} />
+          </div>
         ))}
       </div>
       <Link
