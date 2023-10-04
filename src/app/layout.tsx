@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className="scroll-smooth">
+      <link rel="icon" href="/assets/logo-login-gamer.png" sizes="any" />
       <body className={play.className}>
         {children}
         <Analytics />
