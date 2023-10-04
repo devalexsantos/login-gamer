@@ -1,3 +1,5 @@
+'use client'
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,16 +17,19 @@ export default function MobileNav() {
       <DropdownMenuTrigger className="flex items-center gap-2">
         <IconMenu width={22} height={22} /> Menu
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="mx-4">
-        <DropdownMenuItem>
-          <Link href="#ofertas">OFERTAS</Link>
+      <DropdownMenuContent
+        className="mx-4"
+        onCloseAutoFocus={(e) => e.preventDefault()}
+      >
+        <DropdownMenuItem asChild>
+          <Link href="/#ofertas">OFERTAS</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
+        <DropdownMenuItem asChild>
           <Link href="#categorias">CATEGORIAS</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
+        <DropdownMenuItem asChild>
           <Link href="#videos">VÍDEOS</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
