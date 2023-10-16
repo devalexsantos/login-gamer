@@ -15,7 +15,7 @@ export default function VideoModal({ video }: VideoModalProps) {
   return (
     <Dialog>
       <DialogTrigger>
-        <div className="flex flex-col gap-2 rounded bg-white bg-cover p-3 bg-opacity-5">
+        <div className="flex flex-col gap-2 rounded bg-white bg-cover p-3 bg-opacity-5 w-[350px]">
           <Image
             src={video.imageUrl}
             width={349}
@@ -23,7 +23,7 @@ export default function VideoModal({ video }: VideoModalProps) {
             alt={video.title}
             className="rounded"
           />
-          <span>{video.title}</span>
+          <span className="truncate">{video.title}</span>
         </div>
       </DialogTrigger>
 

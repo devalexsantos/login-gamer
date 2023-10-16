@@ -6,39 +6,40 @@ interface Video {
 
 export const videos: Video[] = [
   {
-    title: 'Login no evento Tamo Junto Nesse Game',
+    title: 'ARENA GAMESTATION GRATUITO NA BGS 2023 #bgs2023',
     imageUrl:
-      'https://i.ytimg.com/vi/r4mMPYCU1ik/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGH8gPigyMA8=&rs=AOn4CLAel9SzTvSMtRqUOSCpFNy3ge-EZw',
-    url: 'https://www.youtube.com/watch?v=r4mMPYCU1ik&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=35&pp=iAQB',
+      'https://i.ytimg.com/vi/iKXvvUhg_W8/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGHIgTyg9MA8=&rs=AOn4CLAnVW7nSRtiMQC8il8rL5LlHoGoqg',
+    url: 'https://www.youtube.com/watch?v=iKXvvUhg_W8&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=41&pp=iAQB',
   },
   {
-    title: '#shorts NOTEBOOK ACER NITRO 5 RTX 3050',
+    title: 'STAND LENOVO + FURIA BGS 2023 #bgs2023',
     imageUrl:
-      'https://i.ytimg.com/vi/-rqdtPbS7TE/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AGUA4AC0AWKAgwIABABGGUgXShVMA8=&rs=AOn4CLAc4ac2YSNxlRWcHDKCKvrQorx9aA',
-    url: 'https://www.youtube.com/watch?v=-rqdtPbS7TE&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=34&pp=iAQB',
+      'https://i.ytimg.com/vi/W-9S4ZtnP6A/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGGUgZChZMA8=&rs=AOn4CLDHzmkmHj8YLg1AmzLBUPzU3m5feQ',
+    url: 'https://www.youtube.com/watch?v=W-9S4ZtnP6A&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=40&pp=iAQB',
   },
   {
-    title: 'MOUSE DEATHADDER ESSENTIAL RAZER',
+    title: 'STAND LOGITECH NA BGS 2O23 #bgs2023',
     imageUrl:
-      'https://i.ytimg.com/vi/LSykm4MaIbQ/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AGUA4AC0AWKAgwIABABGFYgQyh_MA8=&rs=AOn4CLD4OOea6EGXtNDt0mCxFi0vDSIxfw',
-    url: 'https://www.youtube.com/watch?v=LSykm4MaIbQ&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=33&pp=iAQB',
+      'https://i.ytimg.com/vi/eVjFHqttJOQ/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGCMgOCh_MA8=&rs=AOn4CLC65UBwSxmj5Qn5csk7SBJgfYV24g',
+    url: 'https://www.youtube.com/watch?v=eVjFHqttJOQ&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=39&pp=iAQB',
   },
   {
-    title: 'HEADSET TURTLEBEACH RECON 50P',
+    title: 'BGS - BRASIL GAME SHOW 2023 #bgs2023',
     imageUrl:
-      'https://i.ytimg.com/vi/dtJ13rAudRI/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AGUA4AC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLD-bPne_TYkOc9oSTDq1SrFZe-uag',
-    url: 'https://www.youtube.com/watch?v=dtJ13rAudRI&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=32&pp=iAQB',
+      'https://i.ytimg.com/vi/z3SbR4Rfb3M/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCBVfw8orUzzax_R4KbJw0u_tDCJQ',
+    url: 'https://www.youtube.com/watch?v=z3SbR4Rfb3M&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=38&pp=iAQB',
   },
   {
-    title: 'HEADSET TURTLE BEACH RECON 50X',
+    title:
+      'Estamos participando da BGS 2023, um dos maiores eventos Gamer e Geek do Brasil',
     imageUrl:
-      'https://i.ytimg.com/vi/xyqAd6VAYQw/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AGUA4AC0AWKAgwIABABGHIgSCgrMA8=&rs=AOn4CLCufYQ5MEBm3e2twGyUM_6cee_gGQ',
-    url: 'https://www.youtube.com/watch?v=xyqAd6VAYQw&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=31&pp=iAQB',
+      'https://i.ytimg.com/vi/M9PBXJQ0KSw/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AG2CIACgA-KAgwIABABGGUgVihQMA8=&rs=AOn4CLCzyUrwmBCkGQEouu2joyIgp9tS6A',
+    url: 'https://www.youtube.com/watch?v=M9PBXJQ0KSw&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=37&pp=iAQB',
   },
   {
-    title: 'MOUSE V70 MOTOSPEED - LOGIN GAMER',
+    title: 'Estamos presentes na Brasil GAME Show 2023. #bgs2023',
     imageUrl:
-      'https://i.ytimg.com/vi/xyqAd6VAYQw/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AGUA4AC0AWKAgwIABABGHIgSCgrMA8=&rs=AOn4CLCufYQ5MEBm3e2twGyUM_6cee_gGQ',
-    url: 'https://www.youtube.com/watch?v=EJ5IWADArvM&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=30&pp=iAQB',
+      'https://i.ytimg.com/vi/7JAmSAJFbrk/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBFVZxntFRLajDi98M-yOopPqetAQ',
+    url: 'https://www.youtube.com/watch?v=7JAmSAJFbrk&list=PLlffXwND91ax9s8ttKkpUmx9_aII44HJ8&index=36&pp=iAQB',
   },
 ]
